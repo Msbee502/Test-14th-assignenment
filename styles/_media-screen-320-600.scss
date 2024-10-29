@@ -1,0 +1,536 @@
+@media screen and (max-width: 420px) {
+    body {
+      justify-content: center;
+      max-width: 100%
+    }
+  
+    header {
+      min-width: 320px;
+      height: auto;
+  
+    }
+  
+    .header-nav {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    form {
+      font-family: $fontaleo;
+      font-size: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+  
+      .input {
+        height: 15px;
+        margin-bottom: 15px;
+      }
+  
+      .inputtext,
+      input {
+        width: 80%;    
+    }
+  
+      .searchbtn {
+        width: 65px;
+        background-color: blue;
+        border: 1px solid white;
+        color: white;
+        height: 45px;
+        margin-bottom: 15px; 
+        width: 80px;
+        margin-left: 0px;
+                    
+  
+      }
+    }
+  
+    .nav {
+      width: 100%;
+    }
+  
+    .nav a {
+      display: none;
+    }
+  
+    .nav a.icon {
+      float: right;
+      display: block;
+    }
+  
+  
+    .nav .responsive {
+      position: relative;
+  
+    }
+  
+    .nav .responsive a.icon {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+  
+    }
+  
+    .nav.responsive a {
+      float: none;
+      position: absolute;
+  
+    }
+  
+    .toppnav {
+      display: flex;
+      flex-direction: column;
+    }
+  
+  
+    //second section
+    .first-container {
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  
+    .image-container1 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 1%;
+      gap: 15px;
+  
+  
+      .img1 {
+        margin: auto;
+        object-fit: contain;
+        width: 250px;
+      }
+  
+      .img2 {
+        margin: auto;
+        object-fit: contain;
+        width: 250px;
+      }
+    }
+  
+    .first-text {
+      max-width: 300px;
+    }
+  
+    .first-headline {
+      font-size: 25px;
+      text-align: center;
+    }
+  
+    //third section with thumbs up
+    .second-container {
+      background-color: #333333;
+      max-width: 420px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; //why does the bg-pic still appear? I have removed it in media screen?
+  
+  
+      .symbols {
+        //Cant get the symbols and text to change size in media screen
+        max-width: 320px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+  
+      .symbol-text {
+        display: flex;
+        max-width: 320px;
+      }
+  
+      .secondcontainer-text {
+        max-width: 420px;
+        font-size: $aleo24;
+      }
+  
+      .magnyfying .checkbox .thumbsup {
+        max-width: 60px;
+      }
+    }
+  
+    .third-container {
+      max-width: 100%;
+      height: 75%;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      .grid-container1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .card {
+        width: 250px;
+        height: 35vh;
+        padding: 20px;
+        text-align: left;
+        background-color: #333333;
+        opacity: 0.9;
+        overflow: auto;
+      }
+  
+      p {
+        font-family: $fontjosefin;
+        font-size: $josefin16;
+      }
+  
+      h4 {
+        font-family: $fontjosefin;
+        font-size: $josefin20;
+      }
+  
+    }
+  
+  
+    .fourth-container {
+      max-width: 100%;
+      height: 75%;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      .grid-container2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+      }
+  
+      .card2 {
+        width: 250px;
+        height: 35vh;
+        padding: 20px;
+        text-align: left;
+        background-color: #333333;
+        opacity: 0.9;
+        overflow: auto;
+      }
+  
+      p {
+        font-family: $fontjosefin;
+        font-size: $josefin16;
+      }
+  
+      h4 {
+        font-family: $fontjosefin;
+        font-size: $josefin20;
+      }
+  
+    }
+  
+    .grid-container3 {
+      width: 300px;
+      height: 50vh;
+      display: grid;
+      grid-template-columns: 1;
+      grid-template-rows: repeat(3, 1fr);
+      align-items: center;
+      justify-content: center;
+  
+   }
+   .fifth-container-headline {
+      grid-row: 1;
+      grid-column: 1;
+      width: 500px;
+     
+  }
+  
+    .fifth-container-image {
+      grid-row: 2;
+      grid-column: 1;
+      padding: 20px;
+   }
+  
+   .fifth-container-text{
+      grid-column: 1;     
+      grid-row: 3;
+      max-width: 668px;
+      padding: 20px;
+   }
+  
+  
+  }
+  
+  
+  
+  
+  
+  @media screen and (min-width: 420px) and (max-width: 600px) {
+  
+    body {
+        justify-content: center;
+        max-width: 100%
+      }
+    
+      header {
+        // min-width: 320px;
+        height: auto;    
+      }
+    
+      .header-nav {
+       display: flex;
+       align-items: center;
+        // justify-content: center;
+      }
+    
+      form {
+        font-family: $fontaleo;
+        font-size: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+        .input {
+          height: 15px;
+          margin-bottom: 15px;
+        }
+    
+        .inputtext,
+        input {
+          width: 80%;    
+        }
+    
+        .searchbtn {
+        width: 80px;
+          background-color: blue;
+          border: 1px solid white;
+          color: white;
+          height: 45px;
+          margin-bottom: 15px; 
+          margin-left: 0px; 
+    
+        }
+      }
+    
+      .nav {
+        width: 100%;
+      }
+    
+      .nav a {
+        display: none;
+      }
+    
+      .nav a.icon {
+        float: right;
+        display: block;
+      }
+    
+    
+      .nav .responsive {
+        position: relative;
+    
+      }
+    
+      .nav .responsive a.icon {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    
+      }
+    
+      .nav.responsive a {
+        float: none;
+        position: absolute;
+    
+      }
+    
+      .toppnav {
+        display: flex;
+        flex-direction: column;
+      }
+    
+    
+      //second section
+      //second section
+    .first-container {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+    
+      .image-container1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 1%;
+        gap: 15px;
+    
+    
+        .img1 {
+          margin: auto;
+          object-fit: contain;
+          width: 250px;
+        }
+    
+        .img2 {
+          margin: auto;
+          object-fit: contain;
+          width: 250px;
+        }
+      }
+    
+      .first-text {
+        max-width: 300px;
+      }
+    
+      .first-headline {
+        font-size: 25px;
+        text-align: center;
+      }
+    
+      //third section with thumbs up
+      .second-container { //why does the shape background pic still show when I have removed it?
+        background-color: #333333;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        
+    
+        .symbols {
+          //Cant get the symbols and text to change size in media screen. Have tried changing img size.
+          max-width: 420px;
+          display: flex;
+          justify-content: space-evenly;
+        }
+    
+        .symbol-text {
+          display: flex;
+          max-width: 420px;
+        }
+    
+        .secondcontainer-text {
+          font-size: $aleo24;
+          
+        }
+    
+        .magnyfying .checkbox .thumbsup {
+          max-width: 60px;
+        }
+      }
+    
+      .third-container {
+        max-width: 100%;
+        height: 75%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        .grid-container1 {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+    
+        .card {
+          width: 250px;
+          height: 35vh;
+          padding: 20px;
+          text-align: left;
+          background-color: #333333;
+          opacity: 0.9;
+          overflow: auto;
+        }
+    
+        p {
+          font-family: $fontjosefin;
+          font-size: $josefin16;
+        }
+    
+        h4 {
+          font-family: $fontjosefin;
+          font-size: $josefin20;
+        }
+    
+      }
+    
+    
+      .fourth-container {
+        max-width: 100%;
+        height: 75%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        .grid-container2 {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+    
+        }
+    
+        .card2 {
+          width: 250px;
+          height: 35vh;
+          padding: 20px;
+          text-align: left;
+          background-color: #333333;
+          opacity: 0.9;
+          overflow: auto;
+        }
+    
+        p {
+          font-family: $fontjosefin;
+          font-size: $josefin16;
+        }
+    
+        h4 {
+          font-family: $fontjosefin;
+          font-size: $josefin20;
+        }
+    
+      }
+    
+      .grid-container3 {
+        width: 300px;
+        height: 50vh;
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: repeat(3, 1fr);
+        align-items: center;
+        justify-content: center;
+    
+     }
+     .fifth-container-headline {
+        grid-row: 1;
+        grid-column: 1;
+        width: 500px;
+       
+    }
+    
+      .fifth-container-image {
+        grid-row: 2;
+        grid-column: 1;
+        padding: 20px;
+     }
+    
+     .fifth-container-text{
+        grid-column: 1;     
+        grid-row: 3;
+        max-width: 668px;
+        padding: 20px;
+     }
+    
+    
+    }
+    
