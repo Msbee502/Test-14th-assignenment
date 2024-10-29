@@ -421,13 +421,12 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    justify-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
   }
   .image-container1 {
     display: -webkit-box;
@@ -649,18 +648,17 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .image-container1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -ms-flex-pack: distribute;
@@ -672,13 +670,13 @@
     margin: auto;
     -o-object-fit: contain;
        object-fit: contain;
-    width: 420px;
+    width: 380px;
   }
   .image-container1 .img2 {
     margin: auto;
     -o-object-fit: contain;
        object-fit: contain;
-    width: 420px;
+    width: 380px;
   }
   .first-text {
     max-width: 420px;
@@ -1122,7 +1120,6 @@ body {
   background-size: cover;
   height: 100vh;
   width: 100%;
-  margin-top: -1vh;
 }
 .fourth-container .grid-container2 {
   max-width: 1700px;
@@ -1743,13 +1740,12 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    justify-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
   }
   .image-container1 {
     display: -webkit-box;
@@ -1971,18 +1967,17 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .image-container1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -ms-flex-pack: distribute;
@@ -1994,13 +1989,13 @@ body {
     margin: auto;
     -o-object-fit: contain;
        object-fit: contain;
-    width: 420px;
+    width: 380px;
   }
   .image-container1 .img2 {
     margin: auto;
     -o-object-fit: contain;
        object-fit: contain;
-    width: 420px;
+    width: 380px;
   }
   .first-text {
     max-width: 420px;
@@ -2727,13 +2722,12 @@ a:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    justify-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
   }
   .image-container1 {
     display: -webkit-box;
@@ -2955,18 +2949,17 @@ a:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .image-container1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -ms-flex-pack: distribute;
@@ -2978,13 +2971,13 @@ a:hover {
     margin: auto;
     -o-object-fit: contain;
        object-fit: contain;
-    width: 420px;
+    width: 380px;
   }
   .image-container1 .img2 {
     margin: auto;
     -o-object-fit: contain;
        object-fit: contain;
-    width: 420px;
+    width: 380px;
   }
   .first-text {
     max-width: 420px;
