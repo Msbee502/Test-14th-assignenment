@@ -50,4 +50,39 @@ body {
     font-size: $josefin16;
   }
  }
+ .second-container {
+   background-image: url(/images/Bg-pic-3.jpg);
+   background-repeat: no-repeat;
+   background-position: center top;
+   background-size: cover;
+   height: 40vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   .symbols {
+      background-image: url(/images/Shape\ 1.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      }
+      .symbol-text {
+         width: 100vh;
+         display: flex;
+         justify-content: space-between;
+         width: 100vh;
+      }
+      .secondcontainer-text {
+         font-family: $fontaleo;
+         font-size: $aleo36;
+      }
+
+}
+
+
  
