@@ -73,17 +73,24 @@ input:focus {
 
 }
 
-.searchbutton {
-    width: 25%;
 
-}
-
-.searchbtn {
+.searchbtn{
+    width: 153px;
     background-color: #5474FD;
     border: 10px solid white;
     margin-left: -6px;
     text-align: center;
+    color: white;
     height: 63px;
+}
+.searchbtn:hover {
+    color: orange;
+    cursor: pointer;
+    
+}
+.searchbtn:visited {
+   border: 2px solid white;
+   text-decoration: none;
 }
 
 a:hover {
