@@ -1,0 +1,101 @@
+@import 'variables';
+@import 'media-screen-320-600';
+@import 'media-screen-600-1200';
+
+
+
+//first section with company name and search bar//
+header {
+    width: 100%;
+    height: 50vh;
+    background-image: url("../images/Bg-pic-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-color: rgb(123, 112, 204);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+    h1 {
+        font-family: $fontjosefin;
+        color: white;
+        font-size: $josefin48;
+    }
+
+    p {
+        font-family: $fontjosefin;
+        color: white;
+        font-size: $josefin16;
+    }
+
+
+.formcontainer {
+    display: flex;
+
+
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.inputtext {
+    width: 50vh;
+    font-family: $fontaleo;
+    font-size: $aleo14;
+}
+
+.input {
+    width: 100%;
+    height: 41px;
+    float: left;
+    border: 10px solid white;
+}
+
+
+input:focus {
+    background-color: orange;
+
+}
+
+.searchbutton {
+    width: 25%;
+
+}
+
+.searchbtn {
+    background-color: #5474FD;
+    border: 10px solid white;
+    margin-left: -6px;
+    text-align: center;
+    height: 63px;
+}
+
+a:hover {
+    color: orange;
+    cursor: pointer;   
+
+}
+
+.scroll {
+    font-family: $fontjosefin;
+    font-size: $josefin14;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}

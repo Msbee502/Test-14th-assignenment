@@ -21,6 +21,39 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="header-nav">
+        <h1>Bhromaon</h1>
+        <p>Safe travel anywhere</p>
+
+        <div class="formcontainer">
+            <form action="#">
+                <div class="inputtext">
+                    <input type="text" class="input" placeholder="Search your travel destination" required>
+                </div>
+                <div class="searchbutton">
+                    <button type="search" class="searchbtn"
+                        onclick="alert('Searching for your next travel destination...')"> SEARCH </button>
+                </div>
+            </form>
+        </div>
+        <div class="scroll"> <a href="#first-container" class="scroll"> Scroll Down <img src="images/scroll.png"
+                    alt="scroll"></a>
+        </div>
+    </div>
+    <!-- navigation -->
+    <nav class="topnav">
+        <a href="index.html">
+            <img src="images/Logo.png" alt="Logo" class="active"></a>
+        <div class="nav" id="nav-bar">
+            <a href="#">WHO WE ARE</a>
+            <a href="#">WHAT WE DO</a>
+            <a href="#">TRAVEL WITH US</a>
+            <a href="#">CONTACT US</a>
+            <a class="icon" onclick="burgerMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
     
 </body>
 </html>
