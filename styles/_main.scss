@@ -75,6 +75,18 @@ body {
       align-items: center;
       justify-content: space-between;
       }
+      a {
+         color: white;
+         text-decoration: none;
+      } 
+ 
+     a:hover {
+         cursor: pointer;
+         color: orange;
+     }
+     .search {
+      color: white;
+     }
       .symbol-text {
          width: 100vh;
          display: flex;
@@ -84,6 +96,7 @@ body {
       .secondcontainer-text {
          font-family: $fontaleo;
          font-size: $aleo36;
+         
       }
 
 }
