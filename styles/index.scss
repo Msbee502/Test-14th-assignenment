@@ -5,7 +5,7 @@
 @import 'media-screen-600-1200';
 
 // Denna websida är en inte riktigt klar då det var ett test och vi hade ett visst 12 timmar at hinna klart så den har sina små fel, tex är inte burger menu som jag vill ha den. 
-// Sidan är gjord med Sass och på denna sida är alla andra sidor importerade. Gör man inte det s//yns inget i webben. På varje sida som börjar med _ har jag även importert de andra sidorna som används, tex variables. 
+// Sidan är gjord med Sass och på denna sida, index.scss, är alla andra sidor importerade. Gör man inte det s//yns inget i webben. På varje sida som börjar med _ har jag även importert de andra sidorna som används, tex variables. 
 //Den är förklarar sig själv ganska bra, på sidan _buttons and input så har man style för alla knappar och form input, 
 // På _header-and-footer finns style till header and footer (navigation är också med här). På _main.scss finns den stylen 
 // till resterande del av sidan. I _variables.scss har vi de variablar som används flera ggr på sidan nämligen font size och family.
@@ -13,4 +13,5 @@
 //Här har jag då lagt in andra storlekar för text, bilder, form och även hur bilderna ska visas när storleken på skärmen ändras. 
 //Men som sagt, sidan var gjord på på 8 timmar, sen orkade jag inte mer, så den har lite småfel som jag behöver fixa, som jag inte hunnit efter det,
 // för att göra den mer responsive och lite snyggare. Jag är inte helt nöjd helt enkelt! :) 
-//Sidan innehåller också lite kommerntarer som jag skrivit till mig själv för att komma ihåg vad jag måste kolla upp när jag har tid att jobba med den igen.
+//Sidan innehåller också lite kommentarer som jag skrivit till mig själv för att komma ihåg vad jag måste kolla upp när jag har tid att jobba med den igen.
+//I section container skulle jag ha använt favicons men hann inte det så det är något jag kommer lägga till när jag jobbar med den igen.
