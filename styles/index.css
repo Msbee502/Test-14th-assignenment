@@ -898,7 +898,6 @@ body {
           align-items: center;
 }
 .second-container .symbols {
-  background-image: url(/images/Shape\ 1.png);
   background-repeat: no-repeat;
   background-position: center;
   width: 100vh;
@@ -911,6 +910,31 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+.second-container .magnifying-icon, .second-container .thumb-icon {
+  color: blue;
+}
+.second-container .magnifying-icon:hover, .second-container .check-icon:hover, .second-container .thumb-icon:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2); /* Enlarge slightly on hover */
+  -webkit-transition: color 0.2s ease, -webkit-transform 0.2s ease;
+  transition: color 0.2s ease, -webkit-transform 0.2s ease;
+  transition: transform 0.2s ease, color 0.2s ease;
+  transition: transform 0.2s ease, color 0.2s ease, -webkit-transform 0.2s ease;
+}
+.second-container .check-icon {
+  color: red;
+}
+.second-container a {
+  color: white;
+  text-decoration: none;
+}
+.second-container a:hover {
+  cursor: pointer;
+  color: orange;
+}
+.second-container .search {
+  color: white;
 }
 .second-container .symbol-text {
   width: 100vh;
@@ -2240,7 +2264,7 @@ a:hover {
 
 .scroll {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: white;
   text-decoration: none;
   margin-bottom: 20px;

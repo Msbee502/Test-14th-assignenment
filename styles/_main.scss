@@ -69,7 +69,6 @@ body {
    align-items: center;
 
    .symbols {
-      background-image: url(/images/Shape\ 1.png);
       background-repeat: no-repeat;
       background-position: center;
       width: 100vh;
@@ -77,6 +76,19 @@ body {
       align-items: center;
       justify-content: space-between;
       }
+
+     .magnifying-icon, .thumb-icon{
+      color: blue; 
+     }
+
+     .magnifying-icon:hover, .check-icon:hover, .thumb-icon:hover  {
+      transform: scale(1.2); /* Enlarge slightly on hover */
+      transition: transform 0.2s ease, color 0.2s ease;
+    }
+
+    .check-icon{
+      color: red;
+    }
       a {
          color: white;
          text-decoration: none;
