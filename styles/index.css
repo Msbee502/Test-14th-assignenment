@@ -848,7 +848,7 @@ body {
 }
 
 .first-container {
-  background-image: url(../images/Bg-pic-2.jpg);
+  background-image: url(./images/Bg-pic-2.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -905,7 +905,7 @@ body {
 }
 
 .second-container {
-  background-image: url(../images/Bg-pic-3.jpg);
+  background-image: url(./images/Bg-pic-3.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -980,7 +980,7 @@ body {
 }
 
 .third-container {
-  background-image: url(../images/Bg-pic-4.jpg);
+  background-image: url(./images/Bg-pic-4.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -1166,7 +1166,7 @@ body {
 }
 
 .fourth-container {
-  background-image: url(../images/Bg-pic-5.jpg);
+  background-image: url(./images/Bg-pic-5.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -1353,7 +1353,7 @@ body {
 }
 
 .fifth-container {
-  background-image: url(../images/Bg-pic-6.jpg);
+  background-image: url(./images/Bg-pic-6.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
