@@ -29,7 +29,7 @@ body {
     
  
  .first-text-container{
-    width: 560px;
+    max-width: 560px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -211,8 +211,6 @@ body {
    background-size: cover;
    display: flex;
    justify-content: center;
-   
-   
    height: 90vh;
    width: 100%;
 

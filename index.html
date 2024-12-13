@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,28 +23,42 @@
     <link rel="stylesheet" href="styles/index.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
-  <div class="header-nav">    <!--First section with big logo and searchfield -->
-        <h1>Bhromaon</h1>
-        <p>Safe travel anywhere</p>
+        <div class="header-nav"> <!--First section with big logo and searchfield -->
+            <h1>Bhromaon</h1>
+            <p>Safe travel anywhere</p>
 
-        <div class="formcontainer">
-            <form action="#">
-                <div class="inputtext">
-                    <input type="text" class="input" placeholder="Search your travel destination" required>
-                </div>
-                <div class="searchbutton">
-                    <button type="search" class="searchbtn"
-                        onclick="alert('Searching for your next travel destination...')"> SEARCH </button>
-                </div>
-            </form>
+            <div class="formcontainer">
+                <form action="#">
+                    <div class="inputtext">
+                        <input type="text" class="input" placeholder="Search your travel destination" required>
+                    </div>
+                    <div class="searchbutton">
+                        <button type="search" class="searchbtn"
+                            onclick="alert('Searching for your next travel destination...')"> SEARCH </button>
+                    </div>
+                </form>
+            </div>
+            <div class="scroll"> <a href="#first-container" class="scroll"> Scroll Down <i
+                        class="fa-solid fa-chevron-down"></i></a>
+            </div>
         </div>
-        <div class="scroll"> <a href="#first-container" class="scroll"> Scroll Down <i class="fa-solid fa-chevron-down"></i></a>
+
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active"><img src="images/Logo.png" alt="Logo" class="active"></a></a>
+            <a href="#news">Who we are</a>
+            <a href="#contact">What we do</a>
+            <a href="#about">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
-    </div>
-    <!-- navigation -->
-    <nav class="topnav">
+    
+
+        <!-- navigation -->
+        <!-- <nav class="topnav">
         <a href="index.html">
             <img src="images/Logo.png" alt="Logo" class="active"></a>
         <div class="nav" id="nav-bar">
@@ -55,108 +70,111 @@
                 <i class="fa fa-bars"></i>
             </a>
         </div>
-    </nav>
+    </nav>-->
 </header>
 
-<!-- First part -->
-<div class="first-container" id="first-container">
+        <!-- First part -->
+        <div class="first-container" id="first-container">
 
-    <div class="first-text-container">
+            <div class="first-text-container">
 
-        <p class="first-headline">Why choose us</p>
-        <p class="first-text">Tion and dislike men who are so beguiled and demoralized by
-            desire by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee</p>
-        <p class="first-text">Ddislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by
-            desire, tha</p>
+                <p class="first-headline">Why choose us</p>
+                <p class="first-text">Tion and dislike men who are so beguiled and demoralized by
+                    desire by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee</p>
+                <p class="first-text">Ddislike men who are so beguiled and demoralized by the charms of pleasure of the
+                    moment, so blinded by
+                    desire, tha</p>
 
-    </div>
-    <div class="image-container1">
-        <div class="img1"><img src="images/Image2-second-container.png" alt="Mountains" class="img1"></div>
-        <div class="img2"><img src="images/Image1-second-container.png" alt="Mountains" class="img2"></div>
-    </div>
-</div>
-
-<!-- Second part -->
-<div class="second-container">
-    <div class="symbols">
-        <a href="#input"><i class="fa-solid fa-magnifying-glass fa-4x magnifying-icon"></i></a>
-
-        <a href="#input"><i class="fa-regular fa-circle-check fa-4x check-icon"></i></a>
-
-        <a href="#book"><i class="fa-solid fa-thumbs-up fa-4x thumb-icon"></i></a>
-    </div>
-    <div class="symbol-text">
-        <p class="secondcontainer-text"> <a href="#input" class="search">Search Places</a></p>
-        <p class="secondcontainer-text"><a href="#input" class="search">Select Places</a></p>
-        <p class="secondcontainer-text"><a href="#input" class="search">Book & Enjoy</a></p>
-    </div>
-</div>
-
-<!-- Third part -->
-<div class="third-container">
-    <div class="grid-container1">
-        <div class="card">
-            <p>Spain</p>
-            <h4>Grand Spain Madrid</h4>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, quisquam amet? Fugit,
-                exercitationem voluptate facilis mollitia blanditiis id modi dolore.</p>
-            <a href="#" class="button">BOOK NOW</a>
-        </div>
-    </div>
-</div>
-
-<!-- Fourth part -->
-<div class="fourth-container">
-    <div class="grid-container2">
-        <div class="card2">
-            <p>Spain</p>
-            <h4>Grand Spain Madrid</h4>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, quisquam amet? Fugit,
-                exercitationem voluptate facilis mollitia blanditiis id modi dolore.</p>
-            <a href="#" class="button">BOOK NOW</a>
-        </div>
-    </div>
-</div>
-
-<!--Fifth part-->
-<div class="fifth-container">
-    <div class="grid-container3">
-       
-
-        <div class="fifth-container-image">
-
-            <img src="/images/Image-fifthcontainer.png" alt="Man in Spain" class="fifthcontainerImage">
             </div>
-       
-        <div class="fifth-container-text">
-            <h3 class="fifth-title">WHAT OUR TOURISTS SAY</h3>
-            <h4 class="sam">SAM SUMON</h4>
-            <p> But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising
-                pain But I must explain to you how all this mistaken idea of account to nai denouncing pleasure and
-                praising pain was account born and I account will give you a complete account of the system was
-                account born and I account will give you a nai the complete account of the system</p>
-
+            <div class="image-container1">
+                <div class="img1"><img src="images/Image2-second-container.png" alt="Mountains" class="img1"></div>
+                <div class="img2"><img src="images/Image1-second-container.png" alt="Mountains" class="img2"></div>
+            </div>
         </div>
-    </div>
-</div>
 
-<div class="footer">
-    <div class="text-footer">
-        <p class="headlinefooter"><a href="#first-container"> BHROMAON </a></p>
-        <p class="textfooter">Safe travel anywhere.</p>
-    </div>
-</div>
-<script>
-    function burgerMenu() {
-        let burger = document.getElementById("nav-bar");
-        if (burger.className === "nav") {
-            burger.className += "responsive";
-        } else {
-            burger.className = "nav";
-        }
-    }
+        <!-- Second part -->
+        <div class="second-container">
+            <div class="symbols">
+                <a href="#input"><i class="fa-solid fa-magnifying-glass fa-4x magnifying-icon"></i></a>
 
-</script> 
+                <a href="#input"><i class="fa-regular fa-circle-check fa-4x check-icon"></i></a>
+
+                <a href="#book"><i class="fa-solid fa-thumbs-up fa-4x thumb-icon"></i></a>
+            </div>
+            <div class="symbol-text">
+                <p class="secondcontainer-text"> <a href="#input" class="search">Search Places</a></p>
+                <p class="secondcontainer-text"><a href="#input" class="search">Select Places</a></p>
+                <p class="secondcontainer-text"><a href="#input" class="search">Book & Enjoy</a></p>
+            </div>
+        </div>
+
+        <!-- Third part -->
+        <div class="third-container">
+            <div class="grid-container1">
+                <div class="card">
+                    <p>Spain</p>
+                    <h4>Grand Spain Madrid</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, quisquam amet? Fugit,
+                        exercitationem voluptate facilis mollitia blanditiis id modi dolore.</p>
+                    <a href="#" class="button">BOOK NOW</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fourth part -->
+        <div class="fourth-container">
+            <div class="grid-container2">
+                <div class="card2">
+                    <p>Spain</p>
+                    <h4>Grand Spain Madrid</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, quisquam amet? Fugit,
+                        exercitationem voluptate facilis mollitia blanditiis id modi dolore.</p>
+                    <a href="#" class="button">BOOK NOW</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Fifth part-->
+        <div class="fifth-container">
+            <div class="grid-container3">
+
+
+                <div class="fifth-container-image">
+
+                    <img src="/images/Image-fifthcontainer.png" alt="Man in Spain" class="fifthcontainerImage">
+                </div>
+
+                <div class="fifth-container-text">
+                    <h3 class="fifth-title">WHAT OUR TOURISTS SAY</h3>
+                    <h4 class="sam">SAM SUMON</h4>
+                    <p> But I must explain to you how all this mistaken idea of account to denouncinpleasure and
+                        praising
+                        pain But I must explain to you how all this mistaken idea of account to nai denouncing pleasure
+                        and
+                        praising pain was account born and I account will give you a complete account of the system was
+                        account born and I account will give you a nai the complete account of the system</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="text-footer">
+                <p class="headlinefooter"><a href="#first-container"> BHROMAON </a></p>
+                <p class="textfooter">Safe travel anywhere.</p>
+            </div>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
 
 </body>
+
 </html>
