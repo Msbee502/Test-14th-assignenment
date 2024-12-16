@@ -848,7 +848,7 @@ body {
 }
 
 .first-container {
-  background-image: url(/images/Bg-pic-2.jpg);
+  background-image: url(../images/Bg-pic-2.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -1353,7 +1353,7 @@ body {
 }
 
 .fifth-container {
-  background-image: url(/images/Bg-pic-5.jpg);
+  background-image: url(../images/Bg-pic-5.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -2321,6 +2321,7 @@ a:hover {
   overflow: hidden;
   background-color: blue;
   width: 100%;
+  height: auto;
 }
 
 .topnav a {
