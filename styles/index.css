@@ -2373,7 +2373,7 @@ a:hover {
   overflow: hidden;
   background-color: blue;
   width: 100%;
-  min-height: 80px;
+  min-height: 50px;
 }
 
 .topnav a {
