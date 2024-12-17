@@ -15,13 +15,21 @@
     text-decoration: none;
         
  }
+ .button:active {
+    transform: translateY(-3px);
+}
+.button:hover {
+   color: orange;
+   cursor: pointer;
+   
+}
+.button:visited {
+  border: 2px solid white;
+  text-decoration: none;
+}
 
- .button:hover {
-     color: orange;
-     cursor: pointer;
-     
- }
- .button:visited {
-    border: 2px solid white;
-    text-decoration: none;
- }
+a:hover {
+   color: orange;
+   cursor: pointer;   
+}
+
